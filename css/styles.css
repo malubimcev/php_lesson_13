@@ -1,0 +1,84 @@
+body {
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+
+* {
+   box-sizing: border-box; 
+}
+
+.main-container {
+    display: block;
+    min-width: 820px;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 5px;
+}
+
+.form-container {
+    display: block;
+    width: 100%;
+    padding: 2px;
+}
+
+h1 {
+    margin: 5px auto;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.table {
+    display: table;
+    width: 100%;
+    margin: 5px auto;
+    padding: 2px;
+}
+
+td {
+    display: table-cell;
+    width: auto;
+    min-width: 100px;
+    min-height: 2em;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+}
+
+.task-isdone {
+    color: green;
+}
+
+.task-active {
+    color: orange;
+}
+
+.header-row {
+    text-align: center;
+    font-weight: 700;
+    background-color: #dddddd;
+}
+
+.table-row:nth-child(2n+1) {
+    background-color: #ffffff;
+}
+
+.table-row:nth-child(2n+2) {
+    background-color: #eeeeee;
+}
+
+.column-description {
+    width: auto;
+}
+
+.column-date {
+    width: 200px;
+}
+
+.column-action {
+    width: 320px;
+}
+
+.column-status {
+    width: 40px;
+}
